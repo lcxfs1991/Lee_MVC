@@ -1,0 +1,68 @@
+/*preload classes*/
+.svw {
+    background: #fff  ;
+}
+.svw ul {
+    position: relative; 
+    left: -999em;
+}
+#svw>ul>li>img{
+    width:300px;
+}
+
+/*core classes*/
+.stripViewer { 
+position: relative;
+overflow: hidden; 
+border: 2px solid grey;  
+margin: 40px 0 15px 30px;
+}
+.stripViewer ul { /* this is your UL of images */
+margin: 0;
+padding: 0;
+position: relative;
+left: 0;
+top: 0;
+width: 1%;
+list-style-type: none;
+}
+.stripViewer ul li { 
+float:left;
+}
+.stripTransmitter {
+overflow: auto;
+width: 1%;
+}
+.stripTransmitter ul {
+margin: 0;
+padding: 0;
+position: relative;
+list-style-type: none;
+}
+.stripTransmitter ul li{
+width: 20px;
+float:left;
+margin: 0 1px 1px 0;
+}
+.stripTransmitter a{
+font: bold 10px Verdana, Arial;
+text-align: center;
+line-height: 22px;
+background: grey  ;
+color: #fff  ;
+text-decoration: none;
+display: block;
+}
+.stripTransmitter a:hover, a.current{
+background: #fff  ;
+color: #ff0000  ;
+}
+
+/*tooltips formatting*/
+.tooltip
+{
+padding: 0.5em;
+background: #fff  ;
+color: #000  ;
+border: 5px solid #dedede  ;
+}   

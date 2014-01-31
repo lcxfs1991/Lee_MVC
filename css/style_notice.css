@@ -1,0 +1,237 @@
+/* 
+    Document   : style
+    Created on : Oct 10, 2013, 4:54:34 PM
+    Author     : lcxfs1991-pc
+    Description:
+        Purpose of the stylesheet follows.
+*/
+a:link {text-decoration: none;}      /* unvisited link */
+a:visited {color:cadetblue;}  /* visited link */
+a:hover {color:dodgerblue;}  /* mouse over link */
+a:active {color:cornflowerblue;}  /* selected link */
+a,img{
+    border:none;
+}
+html { 
+  background: url(../pic/bg.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body{
+    margin:0 0 0 0;
+    font: normal normal normal 14px/1.4em arial, helvetica, sans-serif;
+}
+.wrap{
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom: 30px;
+    width:980px;
+    height: 191px;
+    display: block;
+}
+.head{
+    background-color: white;
+/*    -webkit-box-shadow:2px 2px 2px black;
+    -moz-box-shadow:2px 2px 2px black;*/
+    width:980px;
+    height: 191px;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align: baseline;
+    margin-top:0;
+}
+.head>div{
+    display:inline-table;
+}
+.logo{
+    width:350px;
+    margin-left:15px;
+}
+.menu{
+    margin-top:48px;
+    margin-left:-30px;
+}
+.menu>li:first-child{
+    border-top:0;
+}
+.menu>li{
+    list-style: none;
+    display:inline;
+    border-top:4px solid rgb(0, 136, 203);
+    padding-top:15px;
+    margin-left:15px;    
+}
+.content{
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:30px;
+    /*background-color: grey;*/
+}
+.content>div{
+    display:inline-table;
+}
+
+.occupy{
+    clear:both;
+}
+.left{
+    width:20%;
+    height:551px;
+     background: url(../pic/leftBG.jpg) no-repeat -100px center; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    float:left;
+}
+.right{
+    width:80%;
+    height:551px;
+    background-color: white;
+}
+.menuTag{
+    border-top: 2px solid #007cc3;
+    border-bottom: 1px solid #c8ced1;
+    background-image: -webkit-gradient(linear,50% 0,50% 100%,color-stop(0%,#fff),color-stop(98%,#f5f5f5),color-stop(100%,#fff));
+    background-image: -webkit-linear-gradient(#fff,#f5f5f5 98%,#fff 100%);
+    background-image: -moz-linear-gradient(#fff,#f5f5f5 98%,#fff 100%);
+    background-image: -o-linear-gradient(#fff,#f5f5f5 98%,#fff 100%);
+    background-image: linear-gradient(#fff,#f5f5f5 98%,#fff 100%);
+    height: 40px;
+    width:100%;
+}
+.menuTag>h2{
+    margin-left:15px;
+}
+
+.partner{
+    margin-top:20px;
+    background-color: white;
+}
+    
+.partnerLogo>div{
+    display: inline-table;
+    width:33%;
+}
+.partnerLogo>div:nth-child(1)>div,.partnerLogo>div:nth-child(2)>div,.partnerLogo>div:nth-child(3)>div{
+    text-align: center;
+}
+
+.partnerLogo>div:nth-child(1)>div>a>img,.partnerLogo>div:nth-child(2)>div>a>img,.partnerLogo>div:nth-child(3)>div>a>img{
+    height:80px;
+}
+
+.bottom{
+    background-color:rgb(0, 136, 203);
+    width:100%;
+    height: 150px;
+    display: block;
+    margin-top:30px;
+    margin-bottom: 30px;
+}
+.bottom>div{
+    display: inline-table;
+    width:16%;
+    margin-top:20px;
+}
+.bottom>div:nth-child(3){
+    margin-top:40px;
+}
+
+.bottom>div:nth-child(1)>div,.bottom>div:nth-child(2)>div,.bottom>div:nth-child(3)>div,.bottom>div:nth-child(4)>div,.bottom>div:nth-child(5)>div,.bottom>div:nth-child(6)>div{
+    text-align: center;
+    color:white;
+}
+.bottom>div:nth-child(1)>div>a>img,.bottom>div:nth-child(2)>div>a>img,.bottom>div:nth-child(4)>div>a>img,.bottom>div:nth-child(5)>div>a>img,.bottom>div:nth-child(6)>div>img{
+    height:45px;  
+}
+.bottom>div:nth-child(3)>div>img{
+    height:80px;
+}
+.bottom+div{
+    height:1px;
+    /*background-color:white;*/
+}
+.contactForm{
+    margin-top:30px;
+}
+.contactForm>div{
+    text-align: center;
+}
+.contactForm>div>input,.contactForm>div>textarea{
+    width: 500px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 1px 0px;
+    margin-top:10px;
+    margin-left: 20px;
+    vertical-align: middle; 
+}
+.right>div:nth-child(1){
+    margin-top:20px;
+}
+.article{
+    margin-bottom: 15px;
+    border-bottom: 4px dotted grey;
+}
+
+.article>div:nth-child(1){
+    max-width: 270px;
+     float:left;
+}
+.article>div:nth-child(2){
+    max-width: 270px;
+     float:left;
+}
+
+.article>div:nth-child(1)>img{
+    margin-left:20px;
+}
+.article>div:nth-child(2)>div:nth-child(1){
+    width:500px;
+}
+.article>div:nth-child(2)>div:nth-child(1)>h3{
+    margin-top:-3px;
+    word-wrap:break-word;
+    margin-left:28px;
+}
+.article>div:nth-child(2)>div:nth-child(2){
+    margin:10px 0 10px 28px;
+}
+.article>div:nth-child(2)>div:nth-child(3){
+    width: 480px;
+    word-wrap:break-word;
+    font-size: 13px;
+    padding: 0 20px 10px 20px;
+    margin-left:10px;
+    margin-bottom:20px;
+}
+.button{
+    height:40px;
+    min-width:40px;
+    max-width: 150px;
+    background-color: rgb(0, 136, 203);
+    margin:-20px -100px 20px 200px;
+    text-align: center;
+    color:white;
+    font-size: 15px;
+    text-align: center;
+    vertical-align: middle;
+}
+.button:hover{
+    background-color: #AD310B;
+     -webkit-transition: background-color 1000ms linear;
+     -moz-transition: background-color 1000ms linear;
+     -o-transition: background-color 1000ms linear;
+     -ms-transition: background-color 1000ms linear;
+     transition: background-color 1000ms linear;
+}
+.button>a{
+    color:white;
+}
+.button>a>span{
+line-height: 40px;
+}
+
+
